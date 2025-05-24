@@ -6,15 +6,17 @@ package _04_backpack;
  */
 
 public class Backpack {
-	Pencil pencil;
-	Ruler ruler;
-	Textbook textbook;
+	Pencil pencil = new Pencil();
+	Ruler ruler = new Ruler();
+	Textbook textbook = new Textbook();
 
 	public void packAndCheck() {
 		// Your mission is to go to school.
 		// 1. First you need to put all your supplies into your backpack - use
 		// the putInBackpack(...) methods
-
+		putInBackpack(textbook);
+		putInBackpack(ruler);
+		putInBackpack(pencil);
 		goToSchool();
 	}
 

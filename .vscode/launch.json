@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TeaMaker",
+            "request": "launch",
+            "mainClass": "_03_tea_maker.TeaMaker",
+            "projectName": "Level1-Module2_bb055908"
+        },
+        {
+            "type": "java",
+            "name": "SmurfRunner",
+            "request": "launch",
+            "mainClass": "_02_smurf.SmurfRunner",
+            "projectName": "Level1-Module2_bb055908"
+        },
+        {
+            "type": "java",
+            "name": "SeaCreatureRunner",
+            "request": "launch",
+            "mainClass": "_01_sea_creature.SeaCreatureRunner",
+            "projectName": "Level1-Module2_bb055908"
+        },
+        {
+            "type": "java",
             "name": "BackpackRunner",
             "request": "launch",
             "mainClass": "_04_backpack.BackpackRunner"
